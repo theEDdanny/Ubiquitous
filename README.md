@@ -40,8 +40,12 @@ Hit enter and wait for the list to be computed. The text file will apear in the 
 
 ![output](https://user-images.githubusercontent.com/92893340/223873768-f379e524-78c1-49c2-9eb7-2104745d6591.PNG)
 
-If we were to run the same process again except with md5 hashing enabled the optput would look like so.
+**Collisions**
 
+To perform a collision, run the program and Answer the first question with Zero for hash collision.
+
+
+ 
 
 
 
