@@ -14,7 +14,7 @@ The next step is to indicate static and dynamic characters. The user will be pro
 For this example we are going to pretend that we know the first three characters, but not the last four. To specify this the payload will look something like 
 "GoD[][][][]". The first three letters being static characters and the last four letters being dynamic. 
 
-![UbiquitousSecondStep](https://user-images.githubusercontent.com/92893340/223864534-2d6fec73-3eb9-4144-a404-5e3b162b8c97.PNG)
+![UbiquitousSecondInput](https://user-images.githubusercontent.com/92893340/225156313-3c559ce4-73ac-419a-be88-fde416af2141.PNG)
 
 The next step is to configure the dynamic place values. This is the step where the user decides what values each dynamic place value could hold. The user can input 0 to enter a custome character set or select from pre made character sets. These sets include structures such as all lower case english letters or the entire ascII character set. It is recomended to use as little characters as possible. Bigger sets have a dramatic affect on processing times. The prompt looks like this. 
 
