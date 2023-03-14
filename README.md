@@ -3,7 +3,8 @@
   Ubiquitous is a tool with algorithems designed to aid generating data of all combinations. The fundimentals of this program are similar to other password cracking software like hashcat but with a few key differences. Ubiquitous introduces static and dynamic place values. This means that the entire password no longer needs to be brute forced if there are place values that are already known. These place values that are already known are refered to as static characters. Any unknown place values are Dynamic place values. The introduction of this feature dramatically decreades the size of password lists while still maintaining reliability. Below is a tutirial on how to use Ubiquitous for list generation and hash collision.
   
 **List Generation Tutorial**
-  When Ubiquitous is launched the user is prometed to either input 0 for collision or 1 for list generation. Input one and press enter.
+
+When Ubiquitous is launched the user is prometed to either input 0 for collision or 1 for list generation. Input one and press enter.
   
 ![UbiquitousFirstStep](https://user-images.githubusercontent.com/92893340/223862825-ce4d6af1-09d9-4572-8579-e3e82c5fed20.PNG)
 
@@ -44,7 +45,9 @@ Hit enter and wait for the list to be computed. The text file will apear in the 
 
 To perform a collision, run the program and Answer the first question with Zero for hash collision.
 
+![UbiquitousFirstStep](https://user-images.githubusercontent.com/92893340/223862825-ce4d6af1-09d9-4572-8579-e3e82c5fed20.PNG)
 
+Next you will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. 
  
 
 
