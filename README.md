@@ -37,9 +37,11 @@ All the configuration infromation has ben setup. All that needs to be done now i
 
 ![workload](https://user-images.githubusercontent.com/92893340/223873310-28cb9c57-6e42-40da-b21b-555d622c1c86.PNG)
 
-Hit enter and wait for the list to be computed. The text file will apear in the directory that the applcation is present in. In this case this is what the first part of the text file looks like.
+Hit enter and wait for the list to be computed. The text file will apear in the directory that the applcation is present in. Below is a screenshot of the output file. 
 
-![output](https://user-images.githubusercontent.com/92893340/223873768-f379e524-78c1-49c2-9eb7-2104745d6591.PNG)
+![newoutput](https://user-images.githubusercontent.com/92893340/225162601-b49f5787-4054-49cd-a30f-62523d33cf2c.PNG)
+
+This list can now be used with aircrack-ng or other wordlist attack frameworks! Happy hacking, and good luck friends!
 
 **Collisions**
 
@@ -47,7 +49,10 @@ To perform a collision, run the program and Answer the first question with Zero 
 
 ![UbiquitousFirstStep](https://user-images.githubusercontent.com/92893340/223862825-ce4d6af1-09d9-4572-8579-e3e82c5fed20.PNG)
 
-Next you will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. 
+Now lets say an attacker was sholder surfing and noticed the first three letters of the password were GoD. Now, The attacker heared the kewboard click a total of 7 times but he/she could only remember the first three letters of the password. Ubiquitous can generate data for every possible combination Begining with GoD and ending with four dynamic characters. 
+
+To run this attack the attacker will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. For this demonistation I have collected a .cap file from an extra router I had laying around. The hash extracted was "fe6506075b1bf16b4636f4d55b9ab523". When Ubiquitous asks for the hash this is what the attacker will input.
+
  
 
 
