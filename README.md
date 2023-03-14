@@ -31,7 +31,7 @@ Next the user will be asked if the output is going to be hashed. Ubiquitous curr
 
 After the hashing question the user will be prompted with another question regarding repeating characters. This is an important question because generating every possible combination can return outputs that are just garbage considering how many characters are repeating. For instance if you are looking for a password that is 8 place values long, the likelyhood of that password being 8 characters repeating is very, very unlikly. This functionality was built to skip over itterations that are unlikly the password.
 
-![repeat](https://user-images.githubusercontent.com/92893340/223870416-d4166c62-bf91-4b0e-a549-8f608ec30498.PNG)
+![newrepeatsettings](https://user-images.githubusercontent.com/92893340/225162156-542e255a-4ba1-4d5a-ab54-30459a49796c.PNG)
 
 All the configuration infromation has ben setup. All that needs to be done now is to set a range to compute and generate the list! If the user wants every posability they would enter 1 to start at the begining. And then enter the same value as work load to run throught the last posability.
 
