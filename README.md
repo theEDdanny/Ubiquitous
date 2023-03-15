@@ -49,11 +49,12 @@ To perform a collision, run the program and Answer the first question with Zero 
 
 ![UbiquitousFirstStep](https://user-images.githubusercontent.com/92893340/223862825-ce4d6af1-09d9-4572-8579-e3e82c5fed20.PNG)
 
-Now lets say an attacker was sholder surfing and noticed the first three letters of the password were GoD. Now, The attacker heared the kewboard click a total of 7 times but he/she could only remember the first three letters of the password. Ubiquitous can generate data for every possible combination Begining with GoD and ending with four dynamic characters. 
+To run this attack the attacker will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. For this demonistation I have collected a .cap file from an extra router I had laying around. The hash extracted was "43f2d9ff4ed690ebee7b03bf39a4fc00". When Ubiquitous asks for the hash this is what the attacker will input. When prompted to input the hash copy and past it in.
 
-To run this attack the attacker will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. For this demonistation I have collected a .cap file from an extra router I had laying around. The hash extracted was "fe6506075b1bf16b4636f4d55b9ab523". When Ubiquitous asks for the hash this is what the attacker will input.
-
+ ![hashinputyum](https://user-images.githubusercontent.com/92893340/225168124-72b9fdf2-0b08-46f2-be57-4c3c5aeb3b59.PNG)
  
+ 
+
 
 
 
