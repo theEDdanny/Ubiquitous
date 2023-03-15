@@ -49,11 +49,35 @@ To perform a collision, run the program and Answer the first question with Zero 
 
 ![UbiquitousFirstStep](https://user-images.githubusercontent.com/92893340/223862825-ce4d6af1-09d9-4572-8579-e3e82c5fed20.PNG)
 
-To run this attack the attacker will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. For this demonistation I have collected a .cap file from an extra router I had laying around. The hash extracted was "43f2d9ff4ed690ebee7b03bf39a4fc00". When Ubiquitous asks for the hash this is what the attacker will input. When prompted to input the hash copy and past it in.
+To run this attack the attacker will need an MD5 hash to collide with. This can be obtained through capturing a four way handshake. A good tutorial on how to capture a 4 way handshake can be found here on david Bombal's youtube channel https://www.youtube.com/watch?v=WfYxrLaqlN8. For this demonistation I have collected a .cap file from an extra router I had laying around. The hash extracted was "5728ed449617ce2ad2106d6ad1cd1560". When Ubiquitous asks for the hash this is what the attacker will input. When prompted to input the hash copy and past it in.
 
- ![hashinputyum](https://user-images.githubusercontent.com/92893340/225168124-72b9fdf2-0b08-46f2-be57-4c3c5aeb3b59.PNG)
+![zTheRealhash](https://user-images.githubusercontent.com/92893340/225173127-d52c77bf-22d0-459d-b3fe-0d04d773b5f0.PNG)
  
+Now lets say an attacker was sholder surfing and noticed the kewboard click a total of 7 times and niticed the first three letters of the password were GoD. Ubiquitous can generate data for every possible combination begining with GoD and ending with four dynamic characters. When prompted to do so, the string configuration for this attack would look like so:
+
+![UbiquitousSecondInput](https://user-images.githubusercontent.com/92893340/225156313-3c559ce4-73ac-419a-be88-fde416af2141.PNG)
+
+Next the attacker would need to think about what possible characters could be in the password. He/She notices there are capital and lowercase letters in the begining so they pick option 3 for lower and uppercase letters.
+
+![UbiquitousCharacterSet](https://user-images.githubusercontent.com/92893340/223867084-83d782b6-d270-455e-8be5-72dd1fa6a9d8.PNG)
+
+When performing hash collisions in Ubiquitous always select yes for hashed output.
+
+![alwayshashed](https://user-images.githubusercontent.com/92893340/225169905-4e3aa6f9-1b30-427d-854f-f0ec4f23683c.PNG)
+
+The attacker can then decide if they want possabilitys with repeating place values to be hashed and checked. In this case the attacker allows repeating place values to prevert accidentally skipping over the collision. 
+
+![znever](https://user-images.githubusercontent.com/92893340/225170707-e1a18222-c1b5-46e9-a0e6-1dcf38341d70.PNG)
+
+Finally the attacker inputs what range of values he wants to check and hits enter!
+
+![workload](https://user-images.githubusercontent.com/92893340/223873310-28cb9c57-6e42-40da-b21b-555d622c1c86.PNG)
+
+When Work load is a very large number processing times can be very long. Adding multithreading to the codebase can help this issue. This feature may be added in the near future.
  
+When a collision is found it will inform the user of the hash and the plan text translation. 
+
+![zfoundcollision](https://user-images.githubusercontent.com/92893340/225173453-e248503b-c88e-43db-a6a3-1b64b4d78fa2.PNG)
 
 
 
