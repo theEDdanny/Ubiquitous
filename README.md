@@ -2,6 +2,10 @@
 
   Ubiquitous is a tool with algorithems designed to aid generating data of all combinations. The fundimentals of this program are similar to other password cracking software like hashcat but with a few key differences. Ubiquitous introduces static and dynamic place values. This means that the entire password no longer needs to be brute forced if there are place values that are already known. These place values that are already known are refered to as static characters. Any unknown place values are Dynamic place values. The introduction of this feature dramatically decreades the size of password lists while still maintaining reliability. Below is a tutirial on how to use Ubiquitous for list generation and hash collision.
   
+**Instilation** 
+
+Fork the entire repository
+  
 **List Generation Tutorial**
 
 When Ubiquitous is launched the user is prometed to either input 0 for collision or 1 for list generation. Input one and press enter.
