@@ -1,5 +1,0 @@
-C:\Users\Danny Ashcraft\source\repos\ubiquitous\Debug\ubiquitous.exe
-C:\Users\satinscumbot\source\repos\ubiquitous\Debug\ubiquitous.exe
-D:\ubiquitous\Debug\ubiquitous.exe
-C:\Users\Danny Ashcraft\source\repos\ubiquitous\Debug\ubiquitous.vcxproj.CopyComplete
-C:\Users\Danny Ashcraft\source\repos\ubiquitous\Debug\libcrypto-3.dll
