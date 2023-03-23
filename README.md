@@ -2,9 +2,9 @@
 
   Ubiquitous is a tool with algorithms designed to aid generating data of all combinations. The fundamentals of this program are similar to other password cracking software like hashcat but with a few key differences. Ubiquitous introduces static and dynamic place values. This means that the entire password no longer needs to be brute forced if there are place values that are already known. These place values that are already known are referred to as static characters. Any unknown place values are Dynamic place values. The introduction of this feature dramatically decreases the size of password lists while still maintaining reliability. Below is a tutorial on how to use Ubiquitous for list generation and hash collision.
   
-**Instilation** 
+**Installation** 
 
-Fork the entire repository and open with visual studio 2022. Or run the code your own personal way. It hopfully shouldn't be too hard. Leave a comment if that is the case. I want this to be easy to run. 
+Fork the entire repository and open with visual studio 2022. Or run the code your own personal way. It hopefully shouldn't be too hard. Leave a comment if that is the case. I want this to be easy to run. 
   
 **List Generation Tutorial**
 
@@ -45,7 +45,7 @@ Hit enter and wait for the list to be computed. The text file will appear in the
 
 This list can now be used with aircrack-ng or other wordlist attack frameworks! Happy hacking, and good luck friends!
 
-**Collisions -- not currently available due to authenticity of the md5 algorithem used**
+**Collisions -- not currently available due to authenticity of the md5 algorithm used**
 
 To perform a collision, run the program and Answer the first question with Zero for hash collision.
 
@@ -80,6 +80,7 @@ When Work load is a very large number processing times can be very long. Adding 
 When a collision is found it will inform the user of the hash and the plan text translation. 
 
 ![zfoundcollision](https://user-images.githubusercontent.com/92893340/225173453-e248503b-c88e-43db-a6a3-1b64b4d78fa2.PNG)
+
 
 
 
